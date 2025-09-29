@@ -1,0 +1,181 @@
+*{
+background-color: rgb(226, 241, 234);
+
+}
+#spinner{
+    margin: 25px;
+}
+.con{
+   
+    height: 100vh;
+    
+}
+.res-con{
+    margin-left: 30px;
+
+}
+.img{
+    width:400px;
+}
+.search{
+    width:50%;
+    padding:7px;
+    background-color:#eee;
+    border-radius:50px;
+    border: solid 1px;
+    padding: 12px;
+}
+::placeholder{
+    font-size: 15px;
+    letter-spacing: 2px;
+    padding-left:10px;
+}
+.con-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.head{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:500;
+    font-size: 50px;
+    color:black;
+}
+.para{
+ font-size: 20px;
+ letter-spacing: 7px;
+}
+
+
+.result-item {
+    margin-bottom: 20px;
+    width:70%;
+    
+}
+
+.result-title {
+    font-size: 22px;
+}
+
+.link-description {
+    color: #444444;
+    font-size: 15px;
+}
+
+.result-url {
+    color: #006621;
+    text-decoration: none;
+}
+
+/* medium screen*/
+@media screen and (max-width:768px) {
+.head{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:500;
+    font-size: 35px;
+    color:black;
+}
+.para{
+ font-size: 17px;
+ letter-spacing: 2px;
+}
+
+
+.result-item {
+    margin-bottom: 18px;
+    width:90%;
+    
+}
+.img{
+    width:200px;
+}
+.search{
+    height:33px;
+    width: 60%;
+}
+::placeholder{
+    font-size: 12px;
+    letter-spacing: 2px;
+    padding-left:7px;
+}
+.con-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+}
+
+.result-title {
+    font-size: 20px;
+}
+
+.link-description {
+    color: #444444;
+    font-size: 11px;
+}
+
+.result-url {
+    color: #006621;
+    text-decoration: none;
+    font-size: 15px;
+}
+}
+
+/* small screen*/
+@media screen and (max-width:576px) {
+.head{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:500;
+    font-size: 25px;
+    color:black;
+   
+}
+.para{
+ font-size: 15px;
+ letter-spacing: 2px;
+}
+
+
+.result-item {
+    margin-bottom: 16px;
+    width:70%;
+    
+}
+.img{
+    width:150px;
+}
+.search{
+    height:22px;
+    width: 45%;
+}
+::placeholder{
+    font-size: 10px;
+    letter-spacing: 1px;
+    padding-left:5px;
+}
+.con-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+}
+
+.result-title {
+    font-size: 16px;
+}
+
+.link-description {
+    color: #444444;
+    font-size: 9px;
+}
+
+.result-url {
+    color: #006621;
+    text-decoration: none;
+    font-size: 12px;
+}
+}
