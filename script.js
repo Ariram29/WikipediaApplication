@@ -46,8 +46,6 @@ function createAndAppendSearchResult(result) {
     result_conEl.appendChild(resultEl);
 }
 
-
-
 function displayRes(searchResults) {
     spinnerEl.classList.add('d-none');
 
