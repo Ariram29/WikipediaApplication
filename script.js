@@ -62,8 +62,6 @@ function displaywiki(event){
         spinnerEl.classList.remove('d-none');
         let userval=searchEl.value;
         let url="https://apis.ccbp.in/wiki-search?search="+userval;
-    //'https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch' + userval + '&format=json&igin=*';
-
 
         let option = {
             method: 'GET'
